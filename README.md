@@ -117,3 +117,21 @@ Werkzeug==3.0.4
 wheel==0.44.0
 wrapt==1.16.0
 ```
+
+Para el uso de esto en un notebook instalo adicionalmente `ipykernel` y `notebook`. 
+
+```shell
+pip install ipykernel notebook
+
+```
+
+Parece que también faltan otras: 
+
+```shell
+pip install ipywidgets 
+```
+
+```shell
+pip freeze > requirements.txt
+```
+
